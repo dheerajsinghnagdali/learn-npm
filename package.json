@@ -11,7 +11,7 @@
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "build:esm": "tsc --module es6 --outDir dist/esm",
     "build:types": "tsc --declaration --emitDeclarationOnly --declarationDir dist/types",
-    "pub": "npx semantic-release && npm run build && npm publish"
+    "pub": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
